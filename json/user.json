@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "No.": "1",
+      "testSub": "全国大学英语六级考试(CET6)",
+      "uname": "张三",
+      "idCard": "377812001072436841",
+      "schoolName": "北京大学",
+      "reportNum": "252144038004377",
+      "examNum": "20260101",
+      "totalScore": "450",
+      "listening": "150",
+      "reading": "150",
+      "writing": "150",
+      "speakingExamNum": "--",
+      "speakingScore": "--"
+    }
+  ],
+  "testSub": [
+    {
+      "1": "全国大学英语四级考试(CET4)"
+    },
+    {
+      "2": "全国大学英语六级考试(CET6)"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="shortcut icon" href="https://www.neea.edu.cn/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/common-m.css">
+  <link rel="stylesheet" href="css/score-m.css">
+  <title>全国大学英语四、六级考试（含口试）成绩查询</title>
+</head>
+<body>
+    <nav class="page-nav">
+        <div class="nav-bar">
+            <!-- logo -->
+            <a herf="https://www.neea.edu.cn/html1/folder/1508/113-1.htm">
+                <img src="img/logo.png" alt="中国教育考试院">
+            </a>
+
+            <!-- 搜索 菜单按键 -->
+            <div class="search-menu">
+                <span class="search-menu-left"></span>
+                <span class="search-menu-right"></span>
+            </div>
+        </div>
+
+        <!-- 顶部导航栏 -->
+        <div class="nav-menu">
+            <ul>
+                <li>
+                    <a href="https://www.neea.edu.cn/html1/folder/1508/113-1.htm">首页</a>
+                </li>
+                <li>
+                    <a herf="https://www.neea.edu.cn/html1/category/16093/615-1.htm">考试资讯</a>
+                </li>
+                <li>
+                    <a herf="https://www.neea.edu.cn/html1/category/1508/151-1.htm">公示公告</a>
+                </li>
+                <li>
+                    <a herf="https://www.neea.edu.cn/html1/folder/16103/1271-1.htm">考试项目</a>
+                </li>
+                <li>
+                    <a herf="https://www.neea.edu.cn/html1/folder/1607/298-1.htm">考试报名</a>
+                </li>
+                <li>
+                    <a herf="https://cjcx.neea.edu.cn/html1/folder/20051/1151-1.htm">成绩查询</a>
+                </li>
+                <li>
+                    <a herf="https://zscx.neea.edu.cn/html1/folder/21051/9446-1.htm">证书查询</a>
+                </li>
+                <li>
+                    <a herf="https://research.neea.edu.cn/">考试研究</a>
+                </li>
+                <li>
+                    <a herf="https://www.neea.edu.cn/html1/folder/1510/793-1.htm">关于我们</a>
+                </li>
+            </ul>
+            <i>></i>
+        </div>
+    </nav>
+
+    <!-- 版心 -->
+    <main class="main">
+        <!-- 网页地图导航 -->
+        <div class="current-position">
+            <a href="https://www.neea.edu.cn/html1/folder/1508/113-1.htm">首页</a>
+            <span>></span>
+            <a href="https://cjcx.neea.edu.cn/">成绩查询</a>
+        </div>
+        <!-- 页面标题 -->
+        <divcl class="page-title">
+            <span><span class="test-sub" id="test-sub">全国大学英语四级考试(CET4)</span>成绩详情</span>
+        </divcl>
+        <!-- 学生信息 -->
+        <div class="user-info">
+            <ul>
+                <li>
+                    <span class="user-info-label">姓名</span>
+                    <span class="user-info-value" id="user-name">王小小</span>
+                </li>
+                <li>
+                    <span class="user-info-label">证件号码</span>
+                    <span class="user-info-value" id="user-idcard">44032419990101001X</span>
+                </li>
+                <li>
+                    <span class="user-info-label">学校</span>
+                    <span class="user-info-value" id="user-school">辽宁师范大学海华学院</span>
+                </li>
+                <li>
+                    <span class="user-info-label">成绩报告单编号</span>
+                    <span class="user-info-value" id="user-report-num">251121028000922</span>
+                </li>
+            </ul>
+        </div>
+        <!-- 笔试成绩 -->
+        <div class="score-info">
+            <span class="score-info-title">笔试成绩</span>
+            <div class="score-info-content">
+                <ul>
+                  <li>
+                      <span class="score-info-label">准考证号</span>
+                      <span class="score-info-value" id="score-exam-num">210280251104802</span>
+                  </li>
+                  <li>
+                      <span class="score-info-label">总分</span>
+                      <span class="score-info-value" id="score-total">410</span>
+                  </li>
+                  <li>
+                      <span class="score-info-label">听力</span>
+                      <span class="score-info-value" id="score-listening">123</span>
+                  </li>
+                  <li>
+                      <span class="score-info-label">阅读</span>
+                      <span class="score-info-value" id="score-reading">157</span>
+                  </li>
+                  <li>
+                      <span class="score-info-label">写作和翻译</span>
+                      <span class="score-info-value" id="score-writing">130</span>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 口试成绩 -->
+        <div class="speaking-score-info">
+            <span class="speaking-score-info-title">口试成绩</span>
+            <div class="speaking-score-info-content">
+                <ul>
+                    <li>
+                        <span class="speaking-score-info-label">准考证号</span>
+                        <span class="speaking-score-info-value" id="speaking-exam-num">--</span>
+                    </li>
+                    <li>
+                        <span class="speaking-score-info-label">成绩</span>
+                        <span class="speaking-score-info-value" id="speaking-score">--</span>
+                    </li>
+                </ul>  
+            </div>
+        </div>
+        <!-- 提示信息 -->
+        <div class="tips">
+            <span>
+                您在报名期间已选择需要纸质成绩报告单，2月27日6时至3月2日17时可再次登录报名网站（cet-bm.neea.edu.cn）进行修改。
+            </span>
+        </div>
+        <!-- 返回按钮 -->
+        <div class="btn">
+            <button>返 回</button>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="https://www.neea.edu.cn/html1/folder/2205/469-1.htm">网站地图</a>
+                         | 
+                    </li>
+                    <li>
+                        <a href="https://www.neea.edu.cn/html1/folder/1510/793-1.htm">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-info">
+                <div class="footer-info-img">
+                    <a href="">
+                        <img src="img/logo-2.png" alt="微信">
+                    </a>
+                </div>
+
+                <div class="footer-info-item">
+                    <p class="footer-info-text">主办单位 : 教育部教育考试院</p>
+                    <p class="footer-info-text">
+                        <a href="#">京ICP备05064772号-1</a>
+                        <a href="#">
+                            <span>
+                                <img src="img/logo-3.png">
+                                京公网安备11040202430017号
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/score.js"></script>
+</body>
+</html>

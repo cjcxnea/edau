@@ -1,0 +1,129 @@
+.current-position {
+  padding: 8px 10px 6px 10px;
+  border-bottom: 1px solid #eee;
+}
+.current-position a,
+.current-position span {
+  font-size: 14px;
+  color: #666;
+}
+.current-position a {
+  text-decoration: none;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2vmin;
+  font-size: 4.53333333vmin;
+  font-weight: 700;
+  color: #003f7e;
+  line-height: 1.5;
+}
+
+.user-info {
+  margin: 3vmin;
+  padding: 0 3vmin;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.speaking-score-info ul,
+.score-info ul,
+.user-info ul {
+  list-style: none;
+}
+.speaking-score-info ul li,
+.score-info ul li,
+.user-info ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.26666667vmin;
+  color: #000;
+  line-height: 10vmin;
+  border-bottom: 0.26666667vmin solid #dadada;
+}
+.speaking-score-info li:nth-child(2) .speaking-score-info-label,
+.score-info li:nth-child(2) .score-info-label,
+.user-info li:nth-child(-n+3) .user-info-label {
+  display: inline-block;
+  width: 4em;
+  text-align-last: justify;
+}
+.speaking-score-info,
+.score-info {
+  margin: 3vmin;
+  padding: 0;
+  border: 0.26666667vmin solid #c8ddee;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.speaking-score-info-title,
+.score-info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edf3f9;
+  border-top-left-radius: 1.5vmin;
+  border-top-right-radius: 1.5vmin;
+  font-size: 4vmin;
+  font-weight: 700;
+  line-height: 8vmin;
+  color: #000000;
+}
+.speaking-score-info-content,
+.score-info-content {
+  padding: 0 3vmin;
+}
+.score-info li:nth-child(2) .score-info-value {
+  color: red;
+}
+.score-info li:nth-child(n+3) .score-info-label {
+  width: 5em;
+  text-align-last: justify;
+  margin-left: 4em;
+}
+.score-info li:nth-child(n+3) .score-info-value {
+  color: #003e7d;
+}
+.speaking-score-info li:nth-child(2) {
+  border: none;
+}
+.speaking-score-info li:nth-child(2) .speaking-score-info-value {
+  color: black;
+}
+
+.tips {
+  padding: 3vmin;
+  margin: 3vmin;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.tips span {
+  font-size: 4vmin;
+  color: #a3a3a3;
+  text-align: justify;
+}
+
+.btn {
+  margin: 2vmin auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  display: block;
+  width: 100%;
+  height: 10vmin;
+  line-height: 10vmin;
+  margin: 0 3vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+  font-size: 4vmin;
+  color: #fff;
+  text-align: center;
+  background: #003f7e;
+  border: none;
+  border-radius: 1.5vmin;
+  letter-spacing: .5em;
+}

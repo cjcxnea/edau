@@ -1,0 +1,136 @@
+.current-position {
+  padding: 8px 10px 6px 10px;
+  border-bottom: 1px solid #eee;
+}
+.current-position a,
+.current-position span {
+  font-size: 14px;
+  color: #666;
+}
+.current-position a {
+  text-decoration: none;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5vmin 1.2vmin 1vmax;
+  font-size: 4.53333333vmin;
+  font-weight: 700;
+  color: #003f7e;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.history-query,
+.form {
+  width: 94%;
+  margin: 0 auto;
+  padding: 3vmin 3vmin 1.5vmin 3vmin;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.form-item {
+  margin-bottom: 3.2vmin;
+}
+.form-item-label {
+  display: inline-block;
+  font-size: 4.26667vmin;
+}
+.form-item:nth-child(2) .form-item-label {
+  width: 4em;
+  text-align-last: justify;
+}
+.form-item-input {
+  width: 100%;
+  padding: 2.4vmin 0;
+  border-bottom: 0.26666667vmin solid #dadada;
+}
+.form-item-input select,
+.form-item-input input {
+  width: 100%;
+  height: 5.26667vmin;
+  background: #fff;
+  font-size: 4vmin;
+  padding: 0 1vmin 0 0;
+  border: none;
+  border-radius: 0;
+}
+.form-item-input select {
+  appearance: none;
+  -webkit-appearance: none; /* 兼容Chrome/Safari */
+}
+.form-item-input:nth-child(n+1) input::placeholder {
+  padding: 0 1vmin 0 0;
+  color: #bbb;
+}
+.form-item-input select:focus,
+.form-item-input input:focus {
+  outline: none;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 4vmin;
+  padding: 0 1vmin 0 0;
+}
+.form-item-extra {
+  font-size: 3.2vmin;
+  color: #a3a3a3;
+  margin-top: 0.6vmin;
+  text-align: right;
+}
+.form-item-extra a {
+  color: #003f7e;
+  text-decoration: none;
+}
+
+.btn {
+  width: 80%;
+  height: 9vmin;
+  margin: 3vmin auto;
+}
+.btn a,
+.btn button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 4.66667vmin;
+  color: #fff;
+  background: #003f7e;
+  border: none;
+  border-radius: 1.5vmin;
+  text-align-last: center;
+  line-height: 9vmin;
+  cursor: pointer;
+}
+.btn button {
+  letter-spacing: .5em;
+}
+.btn a {
+  text-decoration: none;
+}
+
+.form-notice {
+  font-size: 3.5vmin;
+  color: #ff9919;
+  margin: 3vmin 0;
+}
+.form-question {
+  font-size: 4vmin;
+  line-height: 10vmin;
+  text-align: center;
+  border-top: 0.4vmin solid #dadada;
+}
+.form-question a {
+  text-decoration: none;
+  color: var(--theme-color);
+  margin: 0 10px;
+}
+
+.history-query p {
+  margin: 3vmin 0;
+  font-size: 4vmin;
+  color: #000;
+  text-align: justify;
+}
