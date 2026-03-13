@@ -1,0 +1,207 @@
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "title title" /* 第一行：title 占满两列 */
+    "content1 content2"; /* 第二行：两个content分列 */
+  width: 75rem;
+  margin: 0 auto;
+}
+.current-position {
+  grid-area: title;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  border: solid .0625rem #ddd;
+  padding: 0 .625rem;
+}
+.current-position a,
+.current-position span {
+  color: #000;
+}
+.current-position a:hover {
+  color: #ff7f00;
+}
+.current-position a img {
+  vertical-align: middle;
+}
+
+.dt-main-box {
+  grid-area: content1;
+  width: 51.25rem;
+  padding: 0 1.25rem;
+  margin: 0 0 1.875rem 0;
+  border-right: solid .0625rem #ddd;
+}
+.page-title {
+  height: 1.875rem;
+  line-height: 1.875rem;
+  margin: 1.875rem 0;
+  font-size: 1.375rem;
+  color: #3083c7;
+  text-align: center;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 32.5rem;
+  margin: 1.25rem auto;
+}
+.form-item-label {
+  display: inline-block;
+  width: 8.25rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  font-size: .875rem;
+  color: #404040;
+  text-align: right;
+}
+.form-item-input select,
+.form-item-input input {
+  width: 14.875rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background: none;
+  padding: 0 .625rem;
+  border: solid .0625rem #a9a9a9;
+  border-radius: .3125rem;
+}
+.form-item-input select {
+  cursor: text;
+  appearance: none;
+}
+.form-item-input input {
+  cursor: pointer;
+}
+.form-item-input select:focus,
+.form-item-input input:focus {
+  outline: none;
+}
+.form-item-input select:focus option {
+  background-color: #fff;
+}
+.form-item-input select::placeholder,
+.form-item-input input::placeholder {
+  font-size: .875rem;
+  color: #a9a9a9;
+}
+.form-item-extra {
+  display: none;
+}
+
+.history-query a,
+.btn button {
+  display: block;
+  width: 5rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background: #01adef;
+  margin: 0 auto;
+  font-size: .875rem;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: .1875rem;
+  cursor: pointer;
+}
+
+.form-notice {
+  width: 37.5rem;
+  line-height: 1.6;
+  padding: .625rem;
+  margin: 1.875rem auto 6.25rem;
+  font-size: .875rem;
+  color: #404040;
+  border-left: .3125rem solid #d0e0ee;
+  border-radius: 0 .125rem .125rem 0;
+  background: #fafafa;
+}
+.form-notice p {
+  line-height: 1.8;
+}
+.form-question {
+  display: none;
+}
+.history-query {
+  width: 37.5rem;
+  margin: 1.25rem auto;
+  border: .0625rem solid #ddd;
+  padding: .9375rem;
+}
+.history-query p {
+  height: 3.25rem;
+  font-size: .875rem;
+  color: #404040;
+  text-align: justify;
+}
+.history-query a {
+  width: 7.5rem;
+}
+
+aside {
+  grid-area: content2;
+  width: 23.75rem;
+  padding: 0 1.25rem;
+  margin: 1.25rem 0 1.875rem 0;
+}
+.dt-aside-item {
+  border-bottom: .0625rem solid rgb(221, 221, 221);
+  font-size: .875rem;
+  color: #404040;
+}
+.dt-aside-item-title {
+  display: block;
+  position: relative;
+  font-size: 1.125rem;
+  padding: .5rem 0 1.25rem 2.5rem;
+}
+.dt-aside-item-title::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 40%;
+  transform: translateY(-50%); /* 精准垂直居中 */
+  width: .625rem;
+  height: .625rem;
+  background-color: #fe8500;
+}
+.dt-aside-item p {
+  padding-left: .9375rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+  font-size: .875rem;
+  color: #404040;
+}
+.dt-aside-item p span {
+  margin-right: .25rem;
+  font-size: .875rem;
+  cursor: default;
+}
+.dt-aside-item-value {
+  font-size: .875rem;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dt-aside-item-value:hover {
+  color: #ff7f00;
+}
+.dt-aside-item-icon-net,
+.dt-aside-item-icon-sj,
+.dt-aside-item-icon-shijian {
+  display: inline-block;
+  width: .9375rem;
+  height: 1.0625rem;
+}
+.dt-aside-item-icon-net{
+  background: url(../img/dt-icon-net.png) 100% center / cover no-repeat;
+}
+.dt-aside-item-icon-sj {
+  background: url(../img/dt-icon-shouji.png) 100% center / cover no-repeat;
+}
+.dt-aside-item-icon-shijian {
+  background: url(../img/dt-icon-shijian.png) 100% center / cover no-repeat;
+}

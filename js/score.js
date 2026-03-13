@@ -69,6 +69,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         idCardElement.textContent = maskIdCard(idCardElement.textContent);
     }
 
+    if (currentUser.reportNum === '0') {
+        const reportNumElement = document.querySelector('.user-info li:nth-child(4)');
+        if (reportNumElement) {
+            reportNumElement.style.display = 'none';
+        }
+    }
+
     const backButton = document.querySelector('.btn button');
     if (backButton) {
         backButton.addEventListener('click', function() {

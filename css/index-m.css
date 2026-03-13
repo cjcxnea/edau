@@ -1,10 +1,10 @@
 .current-position {
-  padding: 8px 10px 6px 10px;
-  border-bottom: 1px solid #eee;
+  padding: .5rem .625rem .375rem .625rem;
+  border-bottom: .0625rem solid #eee;
 }
 .current-position a,
 .current-position span {
-  font-size: 14px;
+  font-size: .875rem;
   color: #666;
 }
 .current-position a {
@@ -12,11 +12,9 @@
 }
 
 .page-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 3vmin;
   margin: .5vmin 1.2vmin 1vmax;
-  font-size: 4.53333333vmin;
+  font-size: 4.6vmin;
   font-weight: 700;
   color: #003f7e;
   text-align: center;
@@ -125,7 +123,7 @@
 .form-question a {
   text-decoration: none;
   color: var(--theme-color);
-  margin: 0 10px;
+  margin: 0 .625rem;
 }
 
 .history-query p {

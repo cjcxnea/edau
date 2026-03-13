@@ -1,0 +1,112 @@
+.main {
+  width: 75rem;
+  margin: 0 auto;
+}
+.current-position {
+  grid-area: title;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  border: solid .0625rem #ddd;
+  padding: 0 .625rem;
+}
+.current-position a,
+.current-position span {
+  color: #000;
+}
+.current-position a:hover {
+  color: #ff7f00;
+}
+.current-position a img {
+  vertical-align: middle;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1.875rem;
+  margin: 2.5rem 0;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  color: #3083c7;
+  text-align: center;
+}
+.speaking-score-info,
+.score-info,
+.user-info {
+  width: 28.125rem;
+  margin: .625rem auto;
+  font-size: 1rem;
+  color: #404040;
+}
+ul li {
+  list-style: none;
+}
+li {
+  line-height: 2.2;
+}
+ul li span {
+  margin-right: .625rem;
+}
+.user-info li span:nth-child(1)::after {
+  /* content: "："; */
+}
+.speaking-score-info-content li:nth-child(2) .speaking-score-info-label,
+.score-info-content li:nth-child(2) .score-info-label,
+.user-info li:nth-child(-n+3) .user-info-label {
+  display: inline-block;
+  width: 4em;
+  color: #404040;
+  text-align-last: justify;
+}
+.speaking-score-info-title,
+.score-info-title {
+  display: block;
+  background: #D0E0EE;
+  padding: .625rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #404040;
+  text-align: center;
+}
+
+.score-info-content li:nth-child(2) .score-info-value {
+  color: #FC1200;
+}
+.score-info-content li:nth-child(n+3) .score-info-label {
+  display: inline-block;
+  width: 5em;
+  margin-left: 5em;
+  color: #404040;
+  text-align-last: justify;
+}
+.score-info-content li:nth-child(n+3) .score-info-value {
+  font-weight: 700;
+  color: #19407A;
+}
+.tips {
+  width: 28.125rem;
+  background: #FAFAFA;
+  line-height: 1.6;
+  padding: .9375rem;
+  margin: .625rem auto 1.25rem;
+  font-size: .875rem;
+  color: #404040;
+  border-radius: 0 .125rem .125rem 0;
+  border-left: .3125rem solid #D0E0EE;
+}
+
+.btn button {
+  display: block;
+  width: 5rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background: #01adef;
+  margin: 1.875rem auto;
+  font-size: .875rem;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: .1875rem;
+  cursor: pointer;
+}

@@ -1,10 +1,10 @@
 .current-position {
-  padding: 8px 10px 6px 10px;
-  border-bottom: 1px solid #eee;
+  padding: .5rem .625rem .375rem .625rem;
+  border-bottom: .0625rem solid #eee;
 }
 .current-position a,
 .current-position span {
-  font-size: 14px;
+  font-size: .875rem;
   color: #666;
 }
 .current-position a {
