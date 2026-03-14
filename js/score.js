@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const { subject, uname, idNum } = JSON.parse(queryData);
 
         try {
-            const response = await fetch('json/user.json');
+            const response = await fetch('json/users-25(下).json');
             const data = await response.json();
 
             for (const user of data.users) {
