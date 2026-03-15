@@ -1,0 +1,9 @@
+*.log
+*.env
+*.md
+__pycache__/
+.idea/
+.vscode/
+data/
+data_analysis/
+scripts/
