@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', async function() {
         } catch (error) {
             console.error('加载数据失败:', error);
             alert('加载数据失败，请稍后重试');
-            window.location.href = 'v1.html';
+            window.location.href = 'index.html';
             return;
         }
     }
 
     if (!currentUser) {
         alert('页面加载失败：未获取到用户信息');
-        window.location.href = 'v1.html';
+        window.location.href = 'index.html';
         return;
     }
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (backButton) {
         backButton.addEventListener('click', function() {
             sessionStorage.removeItem('queryData');
-            window.location.href = 'v1.html';
+            window.location.href = 'index.html';
         });
     }
 });
