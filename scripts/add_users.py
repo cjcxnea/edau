@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 
-DEFAULT_JSON_FILE_PATH = 'json/user-25(下).json'
+DEFAULT_JSON_FILE_PATH = 'json/users-25(下).json'
 
 
 def add_users_to_json(user_data_list, json_file_path=DEFAULT_JSON_FILE_PATH):
@@ -12,7 +12,7 @@ def add_users_to_json(user_data_list, json_file_path=DEFAULT_JSON_FILE_PATH):
     
     参数:
         user_data_list: 用户数据列表，每个元素是一个包含用户信息的字典
-        json_file_path: user-25(下).json文件路径，默认为'json/user-25(下).json'
+        json_file_path: user-25(下).json文件路径，默认为'json/users-25(下).json'
     
     返回:
         bool: 操作是否成功
@@ -63,12 +63,12 @@ def add_users_to_json(user_data_list, json_file_path=DEFAULT_JSON_FILE_PATH):
 
 def export_users_to_csv(csv_file_path, json_file_path=DEFAULT_JSON_FILE_PATH, mode='append'):
     """
-    将json/user-25(下).json中的用户信息导出到CSV文件中
+    将json/users-25(下).json中的用户信息导出到CSV文件中
     根据编号和姓名检查数据是否已存在，避免重复数据
     
     参数:
         csv_file_path: CSV文件路径
-        json_file_path: user-25(下).json文件路径，默认为'json/user-25(下).json'
+        json_file_path: user-25(下).json文件路径，默认为'json/users-25(下).json'
         mode: 导出模式，'append'为追加模式（默认），'overwrite'为覆盖模式
     
     返回:
@@ -142,12 +142,12 @@ def export_users_to_csv(csv_file_path, json_file_path=DEFAULT_JSON_FILE_PATH, mo
 
 def export_users_to_excel(excel_file_path, json_file_path=DEFAULT_JSON_FILE_PATH, mode='append'):
     """
-    将json/user-25(下).json中的用户信息导出到Excel文件中
+    将json/users-25(下).json中的用户信息导出到Excel文件中
     根据编号和姓名检查数据是否已存在，避免重复数据
     
     参数:
         excel_file_path: Excel文件路径
-        json_file_path: user-25(下).json文件路径，默认为'json/user-25(下).json'
+        json_file_path: user-25(下).json文件路径，默认为'json/users-25(下).json'
         mode: 导出模式，'append'为追加模式（默认），'overwrite'为覆盖模式
     
     返回:
@@ -347,7 +347,7 @@ def get_user_count(json_file_path=DEFAULT_JSON_FILE_PATH):
     获取当前用户数量
     
     参数:
-        json_file_path: user-25(下).json文件路径，默认为'json/user-25(下).json'
+        json_file_path: user-25(下).json文件路径，默认为'json/users-25(下).json'
     
     返回:
         int: 用户数量
