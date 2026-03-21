@@ -395,6 +395,9 @@ if __name__ == '__main__':
             
         elif choice == '2':
             file_path = input("请输入Excel文件路径: ").strip()
+            if not file_path:
+                file_path = 'D:\Code Files\四六级\学习部署\data\sample_users.xlsx'
+                
             users = read_users_from_excel(file_path)
             if users:
                 print(f"\n从Excel文件中读取到 {len(users)} 个用户")
@@ -402,6 +405,8 @@ if __name__ == '__main__':
                 
         elif choice == '3':
             file_path = input("请输入CSV文件路径: ").strip()
+            if not file_path:
+                file_path = 'D:\Code Files\四六级\学习部署\data\sample_users.csv'
             users = read_users_from_csv(file_path)
             if users:
                 print(f"\n从CSV文件中读取到 {len(users)} 个用户")
@@ -421,7 +426,7 @@ if __name__ == '__main__':
         elif choice == '5':
             csv_path = input("请输入CSV文件路径: ").strip()
             if not csv_path:
-                csv_path = 'users.csv'
+                csv_path = 'D:\Code Files\四六级\学习部署\data\sample_users.csv'
             
             print("\n请选择导出模式:")
             print("1. 追加模式（默认，保留现有数据）")
@@ -439,7 +444,7 @@ if __name__ == '__main__':
         elif choice == '6':
             excel_path = input("请输入Excel文件路径 (仅支持 .xlsx 格式！！！): ").strip()
             if not excel_path:
-                excel_path = 'users.xlsx'
+                excel_path = 'D:\Code Files\四六级\学习部署\data\sample_users.xlsx'
             
             print("\n请选择导出模式:")
             print("1. 追加模式（默认，保留现有数据）")
