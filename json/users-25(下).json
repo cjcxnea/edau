@@ -89,6 +89,36 @@
       "writing": "141",
       "speakingExamNum": "--",
       "speakingScore": "--"
+    },
+    {
+      "No.": "47",
+      "testSub": "全国大学英语四级考试(CET4)",
+      "uname": "刘雅琳",
+      "idCard": "374723200405271224",
+      "schoolName": " 山西省财政税务专科学校",
+      "reportNum": "251160325022316",
+      "examNum": "360250241100536",
+      "totalScore": "439",
+      "listening": "132",
+      "reading": "169",
+      "writing": "138",
+      "speakingExamNum": "--",
+      "speakingScore": "--"
+    },
+    {
+      "No.": "48",
+      "testSub": "全国大学英语六级考试(CET6)",
+      "uname": "刘雅琳",
+      "idCard": "374723200405271224",
+      "schoolName": " 山西省财政税务专科学校",
+      "reportNum": "251160324022416",
+      "examNum": "360250241142636",
+      "totalScore": "431",
+      "listening": "131",
+      "reading": "169",
+      "writing": "131",
+      "speakingExamNum": "--",
+      "speakingScore": "--"
     }
   ]
 }
