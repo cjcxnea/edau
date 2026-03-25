@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+
+# 环境变量
+.env
+.env.local
+.env.development
+
+# 编辑器
+.idea/
+.vscode/
+.venv/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本项目
+data/
+data_analysis/
+scripts/
+note.md
